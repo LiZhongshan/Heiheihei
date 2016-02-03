@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#fcfcfc"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:gravity="center_vertical"
+        android:background="@drawable/mm_listitem"
+        android:clickable="true"
+        android:onClick="startchat">
+
+        <ImageView
+            android:id="@+id/head1"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:paddingLeft="5dp"
+            android:src="@drawable/xiaoling" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/head1"
+            android:padding="7dp"
+            android:layout_marginTop="4dp"
+            android:textSize="16sp"
+            android:text="小玲"
+            android:textColor="#000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:padding="7dp"
+            android:textSize="12sp"
+            android:text="16:10"
+            android:textColor="#9A9A9A" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/head1"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="4dp"
+            android:padding="7dp"
+            android:text="哈哈哈哈"
+            android:textSize="13sp"
+            android:textColor="#9A9A9A" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:gravity="center_vertical"
+        android:background="@drawable/mm_listitem"
+        android:clickable="true"
+        android:onClick="startchat1">
+
+        <ImageView
+            android:id="@+id/head2"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:paddingLeft="5dp"
+            android:src="@drawable/meixi" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/head2"
+            android:padding="7dp"
+            android:layout_marginTop="4dp"
+            android:textSize="16sp"
+            android:text="小梅"
+            android:textColor="#000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:padding="7dp"
+            android:textSize="12sp"
+            android:text="16:10"
+            android:textColor="#9A9A9A" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/head2"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="4dp"
+            android:padding="7dp"
+            android:text="哈哈哈哈"
+            android:textSize="13sp"
+            android:textColor="#9A9A9A" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:gravity="center_vertical"
+        android:background="@drawable/mm_listitem"
+        android:clickable="true"
+        android:onClick="startchat2">
+
+        <ImageView
+            android:id="@+id/head3"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:paddingLeft="5dp"
+            android:src="@drawable/aobama" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/head3"
+            android:padding="7dp"
+            android:layout_marginTop="4dp"
+            android:textSize="16sp"
+            android:text="小奥"
+            android:textColor="#000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:padding="7dp"
+            android:textSize="12sp"
+            android:text="16:10"
+            android:textColor="#9A9A9A" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/head3"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="4dp"
+            android:padding="7dp"
+            android:text="哈哈哈哈"
+            android:textSize="13sp"
+            android:textColor="#9A9A9A" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:gravity="center_vertical"
+        android:background="@drawable/mm_listitem"
+        android:clickable="true"
+        android:onClick="startchat3">
+
+        <ImageView
+            android:id="@+id/head4"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:paddingLeft="5dp"
+            android:src="@drawable/mayun" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/head4"
+            android:padding="7dp"
+            android:layout_marginTop="4dp"
+            android:textSize="16sp"
+            android:text="小马"
+            android:textColor="#000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:padding="7dp"
+            android:textSize="12sp"
+            android:text="16:10"
+            android:textColor="#9A9A9A" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/head4"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="4dp"
+            android:padding="7dp"
+            android:text="哈哈哈哈"
+            android:textSize="13sp"
+            android:textColor="#9A9A9A" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:gravity="center_vertical"
+        android:background="@drawable/mm_listitem"
+        android:clickable="true"
+        android:onClick="startchat4">
+
+        <ImageView
+            android:id="@+id/head5"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:paddingLeft="5dp"
+            android:src="@drawable/aoteman" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/head5"
+            android:padding="7dp"
+            android:layout_marginTop="4dp"
+            android:textSize="16sp"
+            android:text="小曼"
+            android:textColor="#000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:padding="7dp"
+            android:textSize="12sp"
+            android:text="16:10"
+            android:textColor="#9A9A9A" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/head5"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="4dp"
+            android:padding="7dp"
+            android:text="哈哈哈哈"
+            android:textSize="13sp"
+            android:textColor="#9A9A9A" />
+
+    </RelativeLayout>
+
+</LinearLayout>

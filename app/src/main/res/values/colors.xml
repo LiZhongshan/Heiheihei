@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#393A3F</color>
+    <color name="colorPrimaryDark">#171717</color>
+    <color name="bar_color">#232325</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="smallgary">#eee</color>
+    <color name="greeny">#00CB0D</color>
+    <color name="greent">#45C01A</color>
+    <color name="grayt">#9A9A9A</color>
+    <color name="black2">#ffeeeeee</color>
+    <color name="windows_color">#F5F5F5</color>
+    <color name="gray">#ff808080</color>
+    <color name="chat_background">#EBEBEB</color>
+
+    <color name="loading">#317EF3</color>
+    <color name="white">#FFFFFF</color>
+</resources>

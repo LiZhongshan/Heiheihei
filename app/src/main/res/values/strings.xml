@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">嘿嘿嘿</string>
+
+    <string name="welcome">welcome</string>
+    <string name="listmain">列表项</string>
+    <string name="action_title">请先登陆系统</string>
+    <string name="action_loading">登陆</string>
+</resources>

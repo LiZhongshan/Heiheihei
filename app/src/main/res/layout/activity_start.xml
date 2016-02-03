@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".StartActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="面朝大海，春暖花开"
+        android:typeface="serif"
+
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="#2E9E38"
+        android:layout_centerInParent="true"
+        />
+    <ImageView
+        android:id="@+id/img4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="30dp"
+        android:layout_above="@id/title"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/gemen"/>
+
+    <TextView
+        android:id="@+id/company"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="lzshan.me"
+
+        android:textSize="23dp"
+        android:gravity="center"
+        android:textColor="#515151"
+        android:layout_marginBottom="15dp"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>
