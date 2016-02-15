@@ -30,6 +30,9 @@
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <activity
+            android:name="com.example.administrator.heiheihei.AddressActivity">
+        </activity>
+        <activity
             android:name=".MainTopRightDialog"
             android:theme="@style/MyDialogStyleTop">
         </activity>

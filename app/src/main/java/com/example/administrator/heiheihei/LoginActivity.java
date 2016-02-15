@@ -56,5 +56,9 @@ public class LoginActivity extends AppCompatActivity {
     public void login_back(View v) {
         this.finish();
     }
+    public void to_gridview(View v) {
+        Intent intent = new Intent (LoginActivity.this,AddressActivity.class);
+        startActivity(intent);
+    }
 
 }
